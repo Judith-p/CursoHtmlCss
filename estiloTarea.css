@@ -1,0 +1,21 @@
+body{
+    background-color: white;
+}
+form{
+  background-color: darkseagreen;
+}
+
+.formulario2{
+    background-color: darkcyan;
+}
+
+.mayusculas{
+    text-transform: uppercase;
+}
+.negrita{
+    font-weight: bold;
+}
+.todo{
+    text-transform: uppercase;
+    font-weight: bold;
+}
