@@ -1,39 +1,111 @@
 <!DOCTYPE html> <!--Indicar que usaremos html 5-->
 <html lang="es">
-<head> <!--Contiene todo lo importante en el navegador-->
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina Principal</title> <!--Titulo de la pagina-->
+    <title>Pagina Principal</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
 </head>
-<body><!--Lo que el usuario ve o lee -->
-
-    <h1>Hola Mundo.</h1>
-    <h2>Hola Mundo.</h2>
-    <h3>Hola Mundo.</h3>
-    <h4>Hola Mundo.</h4>
-    <h5>Hola Mundo.</h5>
-    <br/><br/><br/>
-
-    <h1>Bienvenido.</h1>
-    <h2> Registro</h2>
-
+<body>
     <form>
-        <h3>Ingrese sus datos personales.</3><br/><br/>
-        Nombre: <input/> <br/><br/>
-        Apellido: <input/><br/><br/>
-        Edad: <input/><br/><br/>
-        País:   <select>
-            <option></option>
-            <option>MEXICO</option>
-            <option>USA</option>
-            <option>CANADA</option>
-            <option>FRANCIA</option>
-            </select> <br/><br/>
-        Correo: <input/><br/><br/>
-        Contraseña: <input/><br/><br/>
-        <input type="submit" value="Registrar"/> <br/><br/>
-        <img src="https://saberstarweb.com/wp-content/uploads/2018/04/gracias_agredecer.jpg">
+        <h3>Registro 1.</h3>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" required placeholder="Ingresar dato">
+            <br/>
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" required placeholder="Ingresar dato">
+            <br/>
+            <label for="edad">Edad</label>
+            <input type="number" min="0" max="100" id="edad" required ="Ingresar dato">
+            <br/>
+            <label for="correo">Email</label>
+            <input type="email" id="correo" required placeholder="Ingresar dato">
+            <br/>
+            <label for="contraseña">Contraseña</label>
+            <input type="password" id="contraseña" required placeholder="Ingresar dato">
+            <br/>
+           <center><button type="submit">Registrar</button></center> 
+    </form>
+    <br/>
+    <form class="formulario2">
+        <h3>Registro 2.</h3>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" required placeholder="Ingresar dato">
+            <br/>
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" required placeholder="Ingresar dato">
+            <br/>
+            <label for="edad">Edad</label>
+            <input type="number" min="0" max="100" id="edad" required placeholder>
+            <br/>
+            <label for="correo">Email</label>
+            <input type="email" id="correo" required placeholder="Ingresar dato">
+            <br/>
+            <label for="contraseña">Contraseña</label>
+            <input type="password" id="contraseña" required placeholder="Ingresar dato">
+            <br/>
+            <center><button type="submit">Registrar</button></center>
+    </form>
+    <br/>
+    <form class="formulario3">
+        <h3>Registro 3.</h3>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" required placeholder="Ingresar dato">
+            <br/>
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" required placeholder="Ingresar dato">
+            <br/>
+            <label for="edad">Edad</label>
+            <input type="number" min="0" max="100" id="edad" required placeholder>
+            <br/>
+            <label for="correo">Email</label>
+            <input type="email" id="correo" required placeholder="Ingresar dato">
+            <br/>
+            <label for="contraseña">Contraseña</label>
+            <input type="password" id="contraseña" required placeholder="Ingresar dato">
+            <br/>
+            <center><button type="submit">Registrar</button></center>
+    </form>
+    <br/>
+    <form class="formulario4">
+        <h3>Registro 4.</h3>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" required placeholder="Ingresar dato">
+            <br/>
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" required placeholder="Ingresar dato">
+            <br/>
+            <label for="edad">Edad</label>
+            <input type="number" min="0" max="100" id="edad" required placeholder>
+            <br/>
+            <label for="correo">Email</label>
+            <input type="email" id="correo" required placeholder="Ingresar dato">
+            <br/>
+            <label for="contraseña">Contraseña</label>
+            <input type="password" id="contraseña" required placeholder="Ingresar dato">
+            <br/>
+            <center><button type="submit">Registrar</button></center>
+    </form>
+    <br/>
+    <form class="formulario2">
+        <h3>Registro 5.</h3>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" required placeholder="Ingresar dato">
+            <br/>
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" required placeholder="Ingresar dato">
+            <br/>
+            <label for="edad">Edad</label>
+            <input type="number" min="0" max="100" id="edad" required placeholder>
+            <br/>
+            <label for="correo">Email</label>
+            <input type="email" id="correo" required placeholder="Ingresar dato">
+            <br/>
+            <label for="contraseña">Contraseña</label>
+            <input type="password" id="contraseña" required placeholder="Ingresar dato">
+            <br/>
+            <center><button type="submit">Registrar</button></center>
     </form>
     
 </body>
