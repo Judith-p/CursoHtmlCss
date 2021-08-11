@@ -1,0 +1,31 @@
+body{
+    background-color:lavender
+}
+.parrafo{
+    color: cornsilk;
+    background-color: cornflowerblue;
+    font-size: 2rem;
+    border-radius: 1rem;
+    text-align: justify;
+    text-transform: lowercase;
+    font-weight: bold;
+    }
+    .mayu{
+        text-transform: capitalize;
+    }
+    
+.parrafo2{
+    color: honeydew;
+    background-color: dimgrey;
+    font-size: 3rem;
+    border-radius: 2rem;
+    text-align: justify;
+    text-transform: lowercase;
+    text-decoration: underline;
+}
+
+.mayuscula{
+    text-transform: capitalize;
+    font-weight: bold;
+    color: black;
+}
